@@ -5,7 +5,7 @@ CREATE TABLE overdose_deaths (
 	countyname VARCHAR(100) NOT NULL,
     year INT NOT NULL,
     deaths INT,
-    geometry JSONB  -- To store county boundaries or GeoJSON data
+    geometry VARCHAR  -- To store county boundaries or GeoJSON data
 );
 
 select * from overdose_deaths;
